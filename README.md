@@ -1,2 +1,4 @@
-# scite_project
-Final Project for the course [Data Science for Economists](https://github.com/masonrhayes/DScourseS20)
+# How to replicate results
+All the necessary data is contained in the two Excel Spreadsheets. The first spreadsheet from 25 March contains the analysis using the intitial classification methods. The second spreadsheet contains the same journals reclassified according to the methods in the paper. Replicating the analysis I have done for this project should be as simple as running the R script in this directory using the data from these two spreadsheets; the comments explain steps that might not be obvious given the code itself.
+
+All the journal data contained in the spreadsheets was pulled from [scite](https://scite.ai). Information about how to obtain data from scite for any given set of ISSNs is contained in the [`sciteR`](https://github.com/masonrhayes/sciteR) package which I created for this project. scite's API is under development, and the `sciteR` package is not actively maintained, so the package may not work at a later date.
